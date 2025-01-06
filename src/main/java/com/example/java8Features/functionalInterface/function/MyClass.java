@@ -2,12 +2,12 @@ package com.example.java8Features.functionalInterface.function;
 
 import java.util.List;
 import java.util.function.Function;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 import com.example.bank.Employee;
 import com.example.bank.EmployeeListGenerator;
 
+// function is functional interface which take the a generic type s input T amd return Generic Type R
 public class MyClass {
     public static void main(String[] args) {
 
