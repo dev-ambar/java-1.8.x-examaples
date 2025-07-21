@@ -21,11 +21,11 @@ public class NumberComparison {
         Integer y = 128;
 
         System.out.println(a == b);
+        System.out.println(a.equals(b));
         System.out.println(System.identityHashCode(a));
         System.out.println(System.identityHashCode(b));
 
         System.out.println(x ==y);
-
         System.out.println(System.identityHashCode(x));
         System.out.println(System.identityHashCode(y));
         System.out.println(x.equals(y));
