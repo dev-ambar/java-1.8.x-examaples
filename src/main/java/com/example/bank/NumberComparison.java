@@ -1,4 +1,4 @@
-package src.main.java.com.example.bank;
+package com.example.bank;
 
 public class NumberComparison {
 
